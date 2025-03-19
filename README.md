@@ -55,7 +55,7 @@ The application allows configuring weather data fetching through the following p
 
 ## Run Tests
 1. **Navigate to the project directory** where the `pom.xml` file is located.
-2. Run JUnit tests
+2. Run tests
 
     ```bash
     mvn test
