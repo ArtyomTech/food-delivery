@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: food-delivery
+  datasource:
+    url: jdbc:h2:mem:food_delivery
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+    jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+
+weather:
+  url: "https://www.ilmateenistus.ee/ilma_andmed/xml/observations.php"
+  cron: "0 15 * * * *"
+  stations:
+    - "Tallinn-Harku"
+    - "Tartu-Tõravere"
+    - "Pärnu"
