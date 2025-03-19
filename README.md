@@ -60,6 +60,3 @@ The application allows configuring weather data fetching through the following p
     ```bash
     mvn test
     ```
-
-
-http://localhost:8080/delivery-fee?city=TALLINN&vehicleType=Scooter&datetime=2025-03-18 21:45:59
